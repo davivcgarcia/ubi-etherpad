@@ -28,9 +28,7 @@ If you don't have dynamic provisioning for PersistentVolumes enabled, please cre
 
 If you are running it on OpenShift/Kubernetes, you will notice that the resource template is configured to use container volumes at `/opt/etherpad/data` and `/opt/etherpad/node_modules`, mapped to `PersistentVolumes`.
 
-The container can run using any unprivileged user ID, which will be mapped automaticaly to user `etherpad` and used to run the application.
-
-The Etherpad configuration is stored on a `ConfigMap` called `etherpad-config`, which is mapped to `/opt/etherpad/settings.json`. If you need to change it, do not forget to force application reload (`pod` deletion).
+The container can run using any unprivileged user ID, which will be mapped automaticaly to user `etherpad`. The configuration is stored on a `ConfigMap` called `etherpad-config`, which is mapped to `/opt/etherpad/settings.json`. If you need to change it, do not forget to force application reload (`pod` deletion).
 
 ## Any support?
 
