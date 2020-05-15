@@ -19,7 +19,7 @@ LABEL name="Etherpad UBI Image" \
 # Environment variables used for build/exec
 #
 
-ENV ETHERPAD_VERSION=1.8.0 \
+ENV ETHERPAD_VERSION=1.8.3 \
     ETHERPAD_USER=etherpad \
     ETHERPAD_WEB_PORT=9001 \
     ETHERPAD_BASEDIR=/opt \
