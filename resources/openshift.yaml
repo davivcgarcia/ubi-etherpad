@@ -6,7 +6,7 @@ metadata:
 data:
   settings.json: |
     {
-      "title": "Etherpad",
+      "title": "UBI Etherpad",
     
       "favicon": "favicon.ico",
     
